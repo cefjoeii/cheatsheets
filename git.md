@@ -149,3 +149,29 @@ title: Git
 # Or delete by pushing an empty reference to the remote tag name:
   git push <remote-name> :<tag-name>
 ```
+
+### Delete Commit History
+Warning: This is not recommended. Make sure you know what you’re doing.
+
+```
+# Checkout
+  git checkout --orphan <new-branch-name>
+
+# Add all the files
+  git add -A
+
+# Commit the changes
+  git commit -m "Initial commit"
+
+# Delete the branch
+  git branch -D master
+
+# Rename <new-branch-name> to master
+  git branch -m master
+
+# Force update your repository
+  git push -f origin master
+
+# Good house-keeping
+  git gc --aggressive --prune=all
+```
