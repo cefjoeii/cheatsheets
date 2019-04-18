@@ -16,19 +16,22 @@ title: Ubuntu Directory
   pwd
 
   # Change directory
-  cd <directory-name>
+  cd <dir-name>
 
   # Go up one directory
   cd ..
 
   # Create
-  mkdir <directory-name>
+  mkdir <dir-name>
 
   # Delete
-  rmdir <directory-name>
+  rmdir <dir-name>
 
   # Rename or move
   mv <old-name> <some-path>/<new-name>
+
+  # Copy including all its content recursively
+  cp -r <source-name> <destination-name>
 ```
 
 ### List
