@@ -4,14 +4,14 @@ title: Ubuntu Directory
 
 ### Terminal
 
-```
+```bash
   # User, host, directory, and prompt
   username@hostname:~ $ 
 ```
 
 ### Directory
 
-```
+```bash
   # Print working directory
   pwd
 
@@ -36,7 +36,7 @@ title: Ubuntu Directory
 
 ### List
 
-```
+```bash
   # List the files and directories
   ls
 

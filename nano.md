@@ -4,7 +4,7 @@ title: Nano
 
 ### File
 
-```
+```bash
 # Create or edit a file
   nano <file-name>
 

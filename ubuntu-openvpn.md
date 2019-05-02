@@ -4,7 +4,7 @@ title: Ubuntu OpenVPN
 
 ### VPNBook
 
-```
+```bash
 # Download Free VPN config files
   Visit https://www.vpnbook.com/freevpn
 
@@ -18,7 +18,7 @@ title: Ubuntu OpenVPN
 
 ### OpenVPN
 
-```
+```bash
 # Ensure that the following packages are installed
   network-manager-openvpn-gnome
   network-manager-openvpn

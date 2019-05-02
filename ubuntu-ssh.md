@@ -4,7 +4,7 @@ title: Ubuntu SSH
 
 ### SSH Key for Git Authorization
 
-```
+```bash
 # 0. Go home
   cd ~
 

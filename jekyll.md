@@ -4,7 +4,7 @@ title: Jekyll
 
 ### Server
 
-```
+```bash
 # Run locally
   jekyll serve
 

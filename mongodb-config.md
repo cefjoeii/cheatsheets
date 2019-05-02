@@ -4,7 +4,7 @@ title: MongoDB Configuration
 
 ### Change data directory (Ubuntu)
 
-```
+```bash
 # Stop service
   systemctl stop mongod
 

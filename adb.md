@@ -4,7 +4,7 @@ title: Android Debug Bridge (ADB)
 
 ### Wireless debugging
 
-```
+```bash
 # 0. Add adb's path to Environment Variables or something similar
 
 # 1. If needed, plug the device and run
@@ -23,14 +23,14 @@ title: Android Debug Bridge (ADB)
 
 ### USB debugging
 
-```
+```bash
 # USB mode
   adb -s <device-ip>:<port> usb
 ```
 
 ### Extra
 
-```
+```bash
 # List devices
   adb devices
 

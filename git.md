@@ -4,7 +4,7 @@ title: Git
 
 ### Config
 
-```
+```bash
 # Change commit author's name and email globally
   git config --global user.name "John Doe"
   git config --global user.email "john@doe.org"
@@ -16,7 +16,7 @@ title: Git
 
 ### Clone
 
-```
+```bash
 # Clone a repo with master branch as default
   git clone <url>
 
@@ -29,7 +29,7 @@ title: Git
 
 ### Remote
 
-```
+```bash
 # View remote
   git remote -v
 
@@ -45,7 +45,7 @@ title: Git
 
 ### Branch
 
-```
+```bash
 # Create a new branch
   git checkout -b <branch-name>
 
@@ -79,7 +79,7 @@ title: Git
 
 ### Fetch, Pull, Merge
 
-```
+```bash
 # Fetch all from tracked remotes/branches
   git fetch --all
 
@@ -95,7 +95,7 @@ title: Git
 
 ### Commit
 
-```
+```bash
 # View commit history
   git log
 
@@ -137,7 +137,7 @@ title: Git
 
 ### Tag/Release
 
-```
+```bash
 # Create a new tag
   git tag <tag-name>
   git push <remote-name> --tags
@@ -151,9 +151,10 @@ title: Git
 ```
 
 ### Delete Commit History
+
 Warning: This is not recommended. Make sure you know what you’re doing.
 
-```
+```bash
 # Checkout
   git checkout --orphan <new-branch-name>
 

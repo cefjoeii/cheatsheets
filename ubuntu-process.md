@@ -4,7 +4,7 @@ title: Ubuntu Process
 
 ### Process
 
-```
+```bash
 # Get processes list
   ps
 

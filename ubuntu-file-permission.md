@@ -30,7 +30,7 @@ d | rwx | rw- | r--
 
 ### Change mode for each owner
 
-```
+```bash
 # Give (+) the others (o) permission to write
   chmod o+w <file-or-folder-name>
 
@@ -58,11 +58,10 @@ rwx | r-x | r--
 
 ### Change mode for multiple owners
 
-```
+```bash
 # Give the directory and its subdirectories full permission
   chmod 777 -R <file-or-folder-name>
 
 # Give multiple permission types
   chmod 754 <file-or-folder-name>
 ```
-

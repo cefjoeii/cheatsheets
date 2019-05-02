@@ -4,7 +4,7 @@ title: Heroku
 
 ### Maintenance
 
-```
+```bash
 # Enable maintenance mode
   heroku maintenance:on
   
@@ -17,6 +17,6 @@ title: Heroku
 
 ### Restart Dyno
 
-```
+```bash
 heroku restart --app <app-name>
 ```

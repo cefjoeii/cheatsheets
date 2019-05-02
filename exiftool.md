@@ -3,9 +3,10 @@ title: ExifTool
 ---
 
 ### Date
+
 This can be used for **Date Taken** (DateTimeOriginal), **Date Created** (CreateDate), **Date Modified** (ModifyDate), or all the three (AllDates).
 
-```
+```bash
 # Set exact date and time for all files in the current directory
   exiftool "-DateTimeOriginal=YYYY:MM:DD HH:MM:SS" ./
   exiftool "-CreateDate=YYYY:MM:DD HH:MM:SS" ./

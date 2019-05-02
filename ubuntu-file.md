@@ -4,7 +4,7 @@ title: Ubuntu File
 
 ### File
 
-```
+```bash
   # Read the content
   cat <file-name>
 
@@ -35,7 +35,7 @@ title: Ubuntu File
 
 ### Checksum
 
-```
+```bash
   # Display the SHA1 value
   sha1sum <file-name>
 

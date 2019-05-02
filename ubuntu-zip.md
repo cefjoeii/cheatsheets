@@ -4,7 +4,7 @@ title: Ubuntu Zip
 
 ### Gz - compress one file (only)
 
-```
+```bash
   # Compress file
   gzip <file-name>
 
@@ -14,7 +14,7 @@ title: Ubuntu Zip
 
 ### Tar - put multiple files into a single (tar) file
 
-```
+```bash
   # Compress files
   tar cvf <zip-name> <file-name-1> <file-name-2>
 
