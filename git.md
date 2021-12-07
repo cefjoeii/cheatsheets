@@ -135,6 +135,33 @@ title: Git
   git reset --hard HEAD
 ```
 
+### Stash
+
+Temporarily clean all the current changes without committing
+
+[Git STASH Explained in Simple Words](https://www.youtube.com/watch?v=DeU6opFU_zw)
+
+```bash
+# Undo all the current code changes but temporarily store them
+  git stash
+
+# Show the list of temporarily stored changes
+  git stash list
+
+# Bring back the most recent temporarily stored changes
+  git stash apply
+
+# Bring back a specific stash
+  git stash apply <index-number>
+
+# Add a stash with a custom description
+  git stash push -m "A descriptive but brief message"
+
+# Delete a stash
+  git stash drop <index-number>
+
+```
+
 ### Tag/Release
 
 ```bash
@@ -150,9 +177,30 @@ title: Git
   git push <remote-name> :<tag-name>
 ```
 
+### Merge Conflict
+
+Scenario:
+1. Entered `git rebase <main-branch-name>` while on `<current-branch-name>` and encountered a conflict
+1. Resolved the conflict and committed the code
+1. Entered `git status` and encountered *"You are currently editing a commit while rebasing branch..."*
+
+```bash
+# 1. Make a backup branch of the current branch
+  git branch <backup-branch-name>
+
+# 2. Checkout the branch where the code was resolved
+  git checkout <current-branch-name>
+
+# 3. Abort the rebase
+  git rebase --abort
+
+# 4. Merge the backup branch to the current branch
+  git merge <backup-branch-name>
+```
+
 ### Delete Commit History
 
-Warning: This is not recommended. Make sure you know what you’re doing.
+Warning: This is not recommended. Make sure you know what you're doing.
 
 ```bash
 # Checkout
