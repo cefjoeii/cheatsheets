@@ -83,6 +83,9 @@ title: Git
 # Fetch all from tracked remotes/branches
   git fetch --all
 
+# Fetch and stop tracking deleted local branches
+  git fetch --prune
+
 # Pull and merge to current branch
   git pull <remote-name> <branch-name>
 
